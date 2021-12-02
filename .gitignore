@@ -16,3 +16,8 @@ _ReSharper*/
 .fake/
 # cake:
 Tools/
+
+.idea
+.idea/
+/.idea/
+/.idea
