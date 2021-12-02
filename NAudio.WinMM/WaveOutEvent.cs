@@ -48,6 +48,19 @@ namespace NAudio.Wave
         /// -1 means stick to default device even default device is changed
         /// </summary>
         public int DeviceNumber { get; set; } = -1;
+        
+        /// <summary>
+        /// Retrieves the capabilities of a waveIn device
+        /// </summary>
+        /// <param name="devNumber">Device to test</param>
+        /// <returns>The WaveIn device capabilities</returns>
+        public static WaveOutCapabilities GetCapabilities(int devNumber)
+        {
+            var caps = new WaveOutCapabilities();
+            var structSize = Marshal.SizeOf(caps);
+            MmException.Try(WaveInterop.waveOutGetDevCaps((IntPtr)devNumber, out caps, structSize), "waveOutGetDevCaps");
+            return caps;
+        }
 
         /// <summary>
         /// Opens a WaveOut device
