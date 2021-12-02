@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using NAudio.Utils;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// A sample provider mixer, allowing inputs to be added and removed

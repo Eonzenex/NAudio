@@ -1,4 +1,4 @@
-﻿namespace NAudio.Codecs
+﻿namespace NAudio.Core.Codecs
 {
     /// <summary>
     /// A-law encoder

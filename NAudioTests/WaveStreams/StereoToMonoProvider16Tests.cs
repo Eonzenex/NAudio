@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Core.Wave.WaveProviders;
 using NUnit.Framework;
 using NAudio.Wave;
 

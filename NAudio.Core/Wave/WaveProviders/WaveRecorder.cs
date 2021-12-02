@@ -1,8 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveProviders
 {
     /// <summary>
     /// Utility class to intercept audio from an IWaveProvider and

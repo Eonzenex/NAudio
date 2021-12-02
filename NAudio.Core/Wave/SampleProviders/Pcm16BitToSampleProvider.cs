@@ -1,6 +1,7 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Converts an IWaveProvider containing 16 bit PCM to an

@@ -1,7 +1,9 @@
 ﻿using System;
-using NAudio.Wave.Compression;
+using NAudio.Core.FileFormats.Mp3;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.WinMM.Compression;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM
 {
     /// <summary>
     /// MP3 Frame Decompressor using ACM

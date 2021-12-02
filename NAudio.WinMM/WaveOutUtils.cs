@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using NAudio.Core;
+using NAudio.WinMM.MmeInterop;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave

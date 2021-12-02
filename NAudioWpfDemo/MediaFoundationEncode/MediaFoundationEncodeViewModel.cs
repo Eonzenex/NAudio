@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Input;
-using NAudio.MediaFoundation;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 using NAudioWpfDemo.ViewModel;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;

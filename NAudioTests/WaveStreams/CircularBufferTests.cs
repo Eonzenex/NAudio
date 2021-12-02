@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NAudio.Core.Utils;
 using NUnit.Framework;
-using NAudio.Utils;
 
 namespace NAudioTests.WaveStreams
 {

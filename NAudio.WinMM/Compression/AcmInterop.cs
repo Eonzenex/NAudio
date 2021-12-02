@@ -1,7 +1,8 @@
 using System;
 using System.Runtime.InteropServices;
+using NAudio.Core;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// Interop definitions for Windows ACM (Audio Compression Manager) API

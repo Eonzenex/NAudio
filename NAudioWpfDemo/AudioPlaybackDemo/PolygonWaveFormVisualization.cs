@@ -1,4 +1,6 @@
-﻿namespace NAudioWpfDemo.AudioPlaybackDemo
+﻿using NAudio.Core.Dsp;
+
+namespace NAudioWpfDemo.AudioPlaybackDemo
 {
     class PolygonWaveFormVisualization : IVisualizationPlugin
     {
@@ -13,7 +15,7 @@
             polygonWaveFormControl.AddValue(max, min);
         }
 
-        public void OnFftCalculated(NAudio.Dsp.Complex[] result)
+        public void OnFftCalculated(Complex[] result)
         {
             // nothing to do
         }

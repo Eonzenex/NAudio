@@ -4,7 +4,12 @@ using System.IO;
 using System.Net;
 using System.Threading;
 using System.Windows.Forms;
+using NAudio.Core.FileFormats.Mp3;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveProviders;
 using NAudio.Wave;
+using NAudio.WinForms;
+using NAudio.WinMM;
 
 namespace NAudioDemo.Mp3StreamingDemo
 {

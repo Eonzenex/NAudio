@@ -1,4 +1,4 @@
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     enum AcmStreamSizeFlags
     {

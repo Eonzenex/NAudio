@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Sample Provider to concatenate multiple sample providers together

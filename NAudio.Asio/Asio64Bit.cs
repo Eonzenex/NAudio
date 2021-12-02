@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// ASIO 64 bit value

@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using NAudio.Utils;
+using NAudio.Core.Utils;
 
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
     internal class RiffChunk
     {

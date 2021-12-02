@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
 using NAudio.Wave;
-using NAudio.Wave.Compression;
 using NAudio;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.WinMM.Compression;
 
 namespace NAudioDemo.NetworkChatDemo
 {

@@ -1,7 +1,10 @@
 ﻿using System;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave
 {
     /// <summary>
     /// Useful extension methods to make switching between WaveAndSampleProvider easier

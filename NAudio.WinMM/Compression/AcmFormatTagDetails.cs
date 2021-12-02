@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
     struct AcmFormatTagDetails

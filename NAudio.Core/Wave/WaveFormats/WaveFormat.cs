@@ -1,10 +1,10 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
-using System.Diagnostics;
-using NAudio.Utils;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveFormats
 {
     /// <summary>
     /// Represents a Wave file format

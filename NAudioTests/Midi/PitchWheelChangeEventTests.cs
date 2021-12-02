@@ -4,6 +4,7 @@ using System.Text;
 using NUnit.Framework;
 using NAudio.Midi;
 using System.IO;
+using NAudio.Midi.Midi;
 
 namespace NAudioTests.Midi
 {

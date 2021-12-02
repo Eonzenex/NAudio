@@ -1,4 +1,6 @@
-﻿namespace NAudioDemo.FadeInOutDemo
+﻿using NAudio.WinForms.Gui;
+
+namespace NAudioDemo.FadeInOutDemo
 {
     partial class FadeInOutPanel
     {
@@ -31,7 +33,7 @@
             this.components = new System.ComponentModel.Container();
             this.buttonPlay = new System.Windows.Forms.Button();
             this.buttonStop = new System.Windows.Forms.Button();
-            this.volumeSlider1 = new NAudio.Gui.VolumeSlider();
+            this.volumeSlider1 = new VolumeSlider();
             this.buttonOpen = new System.Windows.Forms.Button();
             this.labelNowTime = new System.Windows.Forms.Label();
             this.labelTotalTime = new System.Windows.Forms.Label();
@@ -171,7 +173,7 @@
 
         private System.Windows.Forms.Button buttonPlay;
         private System.Windows.Forms.Button buttonStop;
-        private NAudio.Gui.VolumeSlider volumeSlider1;
+        private VolumeSlider volumeSlider1;
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Label labelNowTime;
         private System.Windows.Forms.Label labelTotalTime;

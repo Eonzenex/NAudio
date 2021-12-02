@@ -3,6 +3,7 @@ using System.Linq;
 using System.Windows.Forms;
 using NAudio.Wave;
 using System.Diagnostics;
+using NAudio.WinForms;
 
 namespace NAudioDemo.SimplePlaybackDemo
 {

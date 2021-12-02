@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Wave
+namespace NAudio.Core.FileFormats.Mp3
 {
     /// <summary>
     /// Represents a Xing VBR header

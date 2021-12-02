@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio
+namespace NAudio.Core
 {
     /// <summary>
     /// Windows multimedia error codes from mmsystem.h.

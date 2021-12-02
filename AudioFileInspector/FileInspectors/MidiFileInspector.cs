@@ -1,11 +1,11 @@
 using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.Text;
-using NAudio.Midi;
 using System.ComponentModel.Composition;
+using System.Linq;
+using System.Text;
+using NAudio.Midi.Midi;
 
-namespace AudioFileInspector
+namespace AudioFileInspector.FileInspectors
 {
     [Export(typeof(IAudioFileInspector))]
     public class MidiFileInspector : IAudioFileInspector

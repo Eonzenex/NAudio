@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace NAudio.Wave
+namespace NAudio.Core.FileFormats.Mp3
 {
 
     /// <summary>
@@ -147,7 +147,7 @@ namespace NAudio.Wave
                     // invalid index
                     return false;
                 }
-                int versionIndex = frame.MpegVersion == Wave.MpegVersion.Version1 ? 0 : 1;
+                int versionIndex = frame.MpegVersion == MpegVersion.Version1 ? 0 : 1;
                 frame.BitRate = bitRates[versionIndex, layerIndex, frame.BitRateIndex]*1000;
                 if (frame.BitRate == 0)
                 {

@@ -1,7 +1,6 @@
 ﻿using System;
 
-
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// Methods for converting between IEEE 80-bit extended double precision

@@ -1,4 +1,6 @@
-﻿namespace NAudio.Wave.Compression
+﻿using NAudio.Core.Wave.WaveFormats;
+
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// ACM Format

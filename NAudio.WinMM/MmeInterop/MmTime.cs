@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Runtime.InteropServices;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.MmeInterop
 {
     // http://msdn.microsoft.com/en-us/library/dd757347(v=VS.85).aspx
     [StructLayout(LayoutKind.Explicit)]

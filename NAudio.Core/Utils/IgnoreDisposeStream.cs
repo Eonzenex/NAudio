@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// Pass-through stream that ignores Dispose

@@ -1,7 +1,7 @@
-﻿using System.Runtime.InteropServices;
-using System.IO;
+﻿using System.IO;
+using System.Runtime.InteropServices;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveFormats
 {
     /// <summary>
     /// DSP Group TrueSpeech

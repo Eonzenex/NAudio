@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
 namespace NAudioWpfDemo.DrumMachineDemo

@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// A util class for conversions

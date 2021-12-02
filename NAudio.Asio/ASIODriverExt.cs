@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// Callback used by the AsioDriverExt to get wave data

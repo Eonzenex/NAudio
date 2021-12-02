@@ -1,4 +1,7 @@
-﻿namespace NAudio.Wave.SampleProviders
+﻿using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Very simple sample provider supporting adjustable gain

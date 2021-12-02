@@ -1,4 +1,9 @@
-﻿namespace NAudio.Wave
+﻿using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveInputs;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
+
+namespace NAudio.Core.Wave.WaveProviders
 {
     /// <summary>
     /// Buffered WaveProvider taking source data from WaveIn

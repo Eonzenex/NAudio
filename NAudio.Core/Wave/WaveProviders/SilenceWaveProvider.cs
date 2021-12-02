@@ -1,5 +1,7 @@
 using System;
 using System.Linq;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave

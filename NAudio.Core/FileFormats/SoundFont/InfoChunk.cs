@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using NAudio.Core.FileFormats.SoundFont;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.SoundFont 

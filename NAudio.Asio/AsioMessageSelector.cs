@@ -1,5 +1,5 @@
 ﻿// ReSharper disable InconsistentNaming
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// ASIO Message Selector

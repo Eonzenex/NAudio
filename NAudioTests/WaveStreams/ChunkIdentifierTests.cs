@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NAudio.Utils;
+using NAudio.Core.Utils;
 using NAudio.Wave;
+using NAudio.WinMM.MmeInterop;
 using NUnit.Framework;
 
 namespace NAudioTests.WaveStreams

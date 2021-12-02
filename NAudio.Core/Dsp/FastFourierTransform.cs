@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Dsp
+namespace NAudio.Core.Dsp
 {
     /// <summary>
     /// Summary description for FastFourierTransform.

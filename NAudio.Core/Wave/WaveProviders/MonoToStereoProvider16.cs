@@ -1,7 +1,9 @@
 ﻿using System;
-using NAudio.Utils;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveProviders
 {
     /// <summary>
     /// Converts from mono to stereo, allowing freedom to route all, some, or none of the incoming signal to left or right channels

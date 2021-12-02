@@ -1,6 +1,9 @@
 ﻿using System;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.WinMM.MmeInterop;
 
-namespace NAudio.Wave
+namespace NAudio.WinForms
 {
     /// <summary>
     /// Wave Callback Info

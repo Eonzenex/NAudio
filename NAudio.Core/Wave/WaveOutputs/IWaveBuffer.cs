@@ -1,4 +1,4 @@
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveOutputs
 {
     /// <summary>
     /// IWaveBuffer interface use to store wave datas. 

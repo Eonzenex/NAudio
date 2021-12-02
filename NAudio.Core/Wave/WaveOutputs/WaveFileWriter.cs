@@ -1,7 +1,9 @@
 using System;
 using System.IO;
-using NAudio.Wave.SampleProviders;
-using NAudio.Utils;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave

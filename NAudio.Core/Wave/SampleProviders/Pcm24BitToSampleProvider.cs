@@ -1,4 +1,6 @@
-﻿namespace NAudio.Wave.SampleProviders
+﻿using NAudio.Core.Wave.WaveOutputs;
+
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Converts an IWaveProvider containing 24 bit PCM to an

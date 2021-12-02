@@ -1,4 +1,4 @@
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
     /// <summary>
     /// A SoundFont Sample Header

@@ -103,7 +103,7 @@ namespace AudioFileInspector
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NAudio.Utils.AboutForm aboutForm = new NAudio.Utils.AboutForm();
+            AboutForm aboutForm = new AboutForm();
             aboutForm.ShowDialog();
         }
 

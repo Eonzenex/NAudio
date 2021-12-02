@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using NAudio.Mixer;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveInputs;
+using NAudio.WinForms;
+using NAudio.WinMM.Mixer;
+using NAudio.WinMM.MmeInterop;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave
@@ -71,13 +76,7 @@ namespace NAudio.Wave
         /// <summary>
         /// Returns the number of Wave In devices available in the system
         /// </summary>
-        public static int DeviceCount
-        {
-            get
-            {
-                return WaveInterop.waveInGetNumDevs();
-            }
-        }
+        public static int DeviceCount => WaveInterop.waveInGetNumDevs();
 
         /// <summary>
         /// Retrieves the capabilities of a waveIn device

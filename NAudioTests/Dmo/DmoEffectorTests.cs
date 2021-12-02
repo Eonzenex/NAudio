@@ -1,10 +1,9 @@
-﻿using NAudio.Dmo;
-using NAudio.Dmo.Effect;
-using NAudioTests.Utils;
+﻿using NAudioTests.Utils;
 using NUnit.Framework;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
 namespace NAudioTests.Dmo

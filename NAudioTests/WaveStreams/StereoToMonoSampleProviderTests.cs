@@ -1,3 +1,5 @@
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 using NUnit.Framework;
 

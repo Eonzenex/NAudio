@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.MmeInterop
 {
     /// <summary>
     /// WaveInCapabilities structure (based on WAVEINCAPS2 from mmsystem.h)

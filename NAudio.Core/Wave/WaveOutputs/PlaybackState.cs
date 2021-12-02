@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveOutputs
 {
     /// <summary>
     /// Playback State

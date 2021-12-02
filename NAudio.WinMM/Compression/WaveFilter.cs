@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// Summary description for WaveFilter.

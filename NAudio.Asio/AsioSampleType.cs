@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// ASIO Sample Type

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using NAudio.CoreAudioApi.Interfaces;
-using NAudio.MediaFoundation;
-using NAudio.Utils;
+using NAudio.Core.Utils;
 
 namespace NAudioWpfDemo.MediaFoundationEncode
 {

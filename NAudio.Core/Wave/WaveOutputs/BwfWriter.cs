@@ -2,8 +2,10 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveOutputs
 {
     /// <summary>
     /// Broadcast WAVE File Writer

@@ -2,6 +2,11 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Runtime.InteropServices;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.WinMM;
+using NAudio.WinMM.MmeInterop;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave
@@ -251,7 +256,7 @@ namespace NAudio.Wave
         public long GetPosition() => WaveOutUtils.GetPositionBytes(hWaveOut, waveOutLock);
 
         /// <summary>
-        /// Gets a <see cref="Wave.WaveFormat"/> instance indicating the format the hardware is using.
+        /// Gets a <see cref="WaveFormat"/> instance indicating the format the hardware is using.
         /// </summary>
         public WaveFormat OutputWaveFormat => waveStream.WaveFormat;
 

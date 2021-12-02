@@ -10,7 +10,6 @@ using System.Threading;
 using System.Xml;
 using System.Configuration;
 using MarkHeath.MidiUtils.Properties;
-using NAudio.Utils;
 
 namespace MarkHeath.MidiUtils
 {
@@ -307,7 +306,7 @@ namespace MarkHeath.MidiUtils
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NAudio.Utils.AboutForm aboutForm = new NAudio.Utils.AboutForm();
+            AboutForm aboutForm = new AboutForm();
             aboutForm.ShowDialog();
         }
 

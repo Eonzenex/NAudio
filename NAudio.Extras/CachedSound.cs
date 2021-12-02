@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
 namespace NAudio.Extras

@@ -1,4 +1,6 @@
-﻿namespace NAudioDemo.Mp3StreamingDemo
+﻿using NAudio.WinForms.Gui;
+
+namespace NAudioDemo.Mp3StreamingDemo
 {
     partial class Mp3StreamingPanel
     {
@@ -39,7 +41,7 @@
             this.buttonStop = new System.Windows.Forms.Button();
             this.labelBuffered = new System.Windows.Forms.Label();
             this.labelVolume = new System.Windows.Forms.Label();
-            this.volumeSlider1 = new NAudio.Gui.VolumeSlider();
+            this.volumeSlider1 = new VolumeSlider();
             this.SuspendLayout();
             // 
             // buttonPlay
@@ -174,6 +176,6 @@
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Label labelBuffered;
         private System.Windows.Forms.Label labelVolume;
-        private NAudio.Gui.VolumeSlider volumeSlider1;
+        private VolumeSlider volumeSlider1;
     }
 }

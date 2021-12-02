@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NAudio.Wave;
-using NAudio.Utils;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveProviders
 {
     /// <summary>
     /// Converts 16 bit PCM to IEEE float, optionally adjusting volume along the way

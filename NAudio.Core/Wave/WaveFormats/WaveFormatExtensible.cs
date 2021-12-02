@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using NAudio.Dmo;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveFormats
 {
     /// <summary>
     /// WaveFormatExtensible

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NAudio.Codecs
+namespace NAudio.Core.Codecs
 {
     /// <summary>
     /// SpanDSP - a series of DSP components for telephony

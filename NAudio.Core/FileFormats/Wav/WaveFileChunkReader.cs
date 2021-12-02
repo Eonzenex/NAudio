@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.IO;
-using NAudio.Utils;
-using NAudio.Wave;
 using System.Diagnostics;
+using System.IO;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
-namespace NAudio.FileFormats.Wav
+namespace NAudio.Core.FileFormats.Wav
 {
     public class WaveFileChunkReader
     {

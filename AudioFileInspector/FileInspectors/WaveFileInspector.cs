@@ -1,12 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using NAudio.Wave;
-using NAudio.Utils;
-using System.Diagnostics;
 using System.ComponentModel.Composition;
+using System.Text;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.Wave;
 
-namespace AudioFileInspector
+namespace AudioFileInspector.FileInspectors
 {
     [Export(typeof(IAudioFileInspector))]
     public class WaveFileInspector : IAudioFileInspector

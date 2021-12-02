@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using NAudio.Core.Wave.WaveStreams;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave

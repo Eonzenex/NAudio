@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveInputs;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using NAudioWpfDemo.ViewModel;

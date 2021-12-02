@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Runtime.InteropServices;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// ACMFORMATCHOOSE

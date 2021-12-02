@@ -1,4 +1,4 @@
-﻿namespace NAudio.Wave
+﻿namespace NAudio.WinMM.MmeInterop
 {
     /// <summary>
     /// Wave Callback Strategy

@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Input;
-using NAudio.CoreAudioApi.Interfaces;
-using NAudio.MediaFoundation;
-using NAudio.Utils;
+using NAudio.Core.Utils;
 using NAudioWpfDemo.ViewModel;
 
 namespace NAudioWpfDemo.EnumMediaFoundationTransforms

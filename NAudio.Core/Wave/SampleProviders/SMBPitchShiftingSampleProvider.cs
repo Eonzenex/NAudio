@@ -1,7 +1,9 @@
 using System;
-using NAudio.Dsp;
+using NAudio.Core.Dsp;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Author: Freefall

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Input;
+using NAudio.Core.Wave;
 using NAudio.Wave;
+using NAudio.WinForms;
 using NAudioWpfDemo.ViewModel;
 
 namespace NAudioWpfDemo.DrumMachineDemo

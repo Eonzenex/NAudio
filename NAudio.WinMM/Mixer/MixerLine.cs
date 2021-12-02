@@ -1,10 +1,11 @@
 // created on 10/12/2002 at 20:37
-using System;
-using System.Runtime.InteropServices;
-using NAudio.Wave;
-using System.Collections.Generic;
 
-namespace NAudio.Mixer 
+using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using NAudio.Core;
+
+namespace NAudio.WinMM.Mixer 
 {
     /// <summary>
     /// Represents a mixer line (source or destination)

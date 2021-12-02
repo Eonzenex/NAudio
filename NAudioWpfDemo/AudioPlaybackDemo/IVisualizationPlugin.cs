@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using NAudio.Dsp;
+using NAudio.Core.Dsp;
 
 namespace NAudioWpfDemo.AudioPlaybackDemo
 {

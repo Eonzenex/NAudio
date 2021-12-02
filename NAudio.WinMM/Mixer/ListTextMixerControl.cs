@@ -1,8 +1,8 @@
 // created on 13/12/2002 at 22:06
-using System;
-using System.Runtime.InteropServices;
 
-namespace NAudio.Mixer
+using System;
+
+namespace NAudio.WinMM.Mixer
 {
 	/// <summary>
 	/// List text mixer control

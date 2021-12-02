@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveProviders
 {
     /// <summary>
     /// Base class for creating a 16 bit wave provider

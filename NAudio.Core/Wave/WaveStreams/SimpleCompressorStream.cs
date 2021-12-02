@@ -1,6 +1,8 @@
-using NAudio.Dsp;
+using NAudio.Core.Dsp;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveStreams
 {
     /// <summary>
     /// A simple compressor

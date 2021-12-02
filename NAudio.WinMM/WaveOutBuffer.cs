@@ -1,7 +1,10 @@
 using System;
 using System.Runtime.InteropServices;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.WinMM.MmeInterop;
 
-namespace NAudio.Wave 
+namespace NAudio.WinMM 
 {
     /// <summary>
     /// A buffer of Wave samples for streaming to a Wave Output device

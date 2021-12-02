@@ -1,6 +1,8 @@
-﻿using NAudio.Wave;
+﻿using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
 
-namespace NAudioWpfDemo.FireAndForgetPlayback
+namespace NAudioWpfDemo
 {
     class AutoDisposeFileReader : ISampleProvider
     {

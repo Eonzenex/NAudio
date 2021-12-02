@@ -1,4 +1,4 @@
-﻿namespace NAudio.Wave
+﻿namespace NAudio.Core.FileFormats.Mp3
 {
     /// <summary>
     /// Channel Mode

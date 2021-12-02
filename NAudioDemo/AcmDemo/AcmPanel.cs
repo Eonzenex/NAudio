@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Text;
 using System.Windows.Forms;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveStreams;
 using NAudio.Wave;
-using NAudio.Wave.Compression;
+using NAudio.WinMM.Compression;
 using NAudioDemo.Utils;
 
 namespace NAudioDemo.AcmDemo

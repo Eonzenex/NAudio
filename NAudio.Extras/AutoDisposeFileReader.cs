@@ -1,5 +1,7 @@
 ﻿using NAudio.Wave;
 using System;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudio.Extras
 {

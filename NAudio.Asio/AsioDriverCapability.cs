@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// AsioDriverCapability holds all the information from the AsioDriver.

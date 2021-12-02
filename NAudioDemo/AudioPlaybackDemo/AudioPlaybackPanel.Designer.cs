@@ -1,4 +1,6 @@
-﻿namespace NAudioDemo.AudioPlaybackDemo
+﻿using NAudio.WinForms.Gui;
+
+namespace NAudioDemo.AudioPlaybackDemo
 {
     partial class AudioPlaybackPanel
     {
@@ -48,11 +50,11 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.waveformPainter2 = new NAudio.Gui.WaveformPainter();
-            this.waveformPainter1 = new NAudio.Gui.WaveformPainter();
-            this.volumeMeter2 = new NAudio.Gui.VolumeMeter();
-            this.volumeMeter1 = new NAudio.Gui.VolumeMeter();
-            this.volumeSlider1 = new NAudio.Gui.VolumeSlider();
+            this.waveformPainter2 = new WaveformPainter();
+            this.waveformPainter1 = new WaveformPainter();
+            this.volumeMeter2 = new VolumeMeter();
+            this.volumeMeter1 = new VolumeMeter();
+            this.volumeSlider1 = new VolumeSlider();
             this.groupBoxDriverModel.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPosition)).BeginInit();
@@ -315,7 +317,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox comboBoxLatency;
-        private NAudio.Gui.VolumeSlider volumeSlider1;
+        private VolumeSlider volumeSlider1;
         private System.Windows.Forms.GroupBox groupBoxDriverModel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStrip toolStrip1;
@@ -331,10 +333,10 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel labelTotalTime;
         private System.Windows.Forms.Label label3;
-        private NAudio.Gui.VolumeMeter volumeMeter1;
-        private NAudio.Gui.VolumeMeter volumeMeter2;
-        private NAudio.Gui.WaveformPainter waveformPainter1;
-        private NAudio.Gui.WaveformPainter waveformPainter2;
+        private VolumeMeter volumeMeter1;
+        private VolumeMeter volumeMeter2;
+        private WaveformPainter waveformPainter1;
+        private WaveformPainter waveformPainter2;
         private System.Windows.Forms.Panel panelOutputDeviceSettings;
         private System.Windows.Forms.ComboBox comboBoxOutputDevice;
     }

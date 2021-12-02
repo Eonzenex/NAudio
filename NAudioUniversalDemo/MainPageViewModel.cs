@@ -6,7 +6,11 @@ using Windows.Storage;
 using Windows.Storage.Pickers;
 using Windows.UI.Xaml.Controls;
 using System.IO;
-using NAudio.MediaFoundation;
+using NAudio.Core.Wave.WaveInputs;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Uap;
+using NAudio.Wasapi.CoreAudioApi;
+using NAudio.Wasapi.MediaFoundation;
 
 namespace NAudioUniversalDemo
 {

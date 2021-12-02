@@ -1,7 +1,6 @@
 ﻿using System;
-using NAudio.Wave.Asio;
 
-namespace NAudio.Wave
+namespace NAudio.Asio
 {
     /// <summary>
     /// Raised when ASIO data has been recorded.

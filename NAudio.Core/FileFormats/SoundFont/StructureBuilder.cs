@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-namespace NAudio.SoundFont
+
+namespace NAudio.Core.FileFormats.SoundFont
 {
 
     /// <summary>

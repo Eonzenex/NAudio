@@ -1,4 +1,5 @@
-﻿using NAudio.Wave;
+﻿using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
 namespace NAudioDemo.NetworkChatDemo
 {

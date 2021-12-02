@@ -1,7 +1,9 @@
 using System;
 using System.Runtime.InteropServices;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.MmeInterop
 {
     /// <summary>
     /// MME Wave function interop

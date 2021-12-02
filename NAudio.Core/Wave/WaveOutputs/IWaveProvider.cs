@@ -1,6 +1,7 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveOutputs
 {
     /// <summary>
     /// Generic interface for all WaveProviders.

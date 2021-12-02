@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// Helper to get descriptions

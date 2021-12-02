@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using NAudio.CoreAudioApi;
-using NAudio.CoreAudioApi.Interfaces;
-using System.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Threading;
+using System.Threading.Tasks;
 using Windows.Devices.Enumeration;
 using Windows.Media.Devices;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveInputs;
+using NAudio.Wasapi.CoreAudioApi;
+using NAudio.Wasapi.CoreAudioApi.Interfaces;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Uap
 {
     enum WasapiCaptureState
     {

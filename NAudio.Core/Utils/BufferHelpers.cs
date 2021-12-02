@@ -1,4 +1,4 @@
-﻿namespace NAudio.Utils
+﻿namespace NAudio.Core.Utils
 {
     /// <summary>
     /// Helper methods for working with audio buffers

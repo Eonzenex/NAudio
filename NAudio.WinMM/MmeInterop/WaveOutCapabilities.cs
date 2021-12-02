@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.MmeInterop
 {
     /// <summary>
     /// WaveOutCapabilities structure (based on WAVEOUTCAPS2 from mmsystem.h)

@@ -1,7 +1,7 @@
 ﻿using System;
 using NAudio.Wave;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// WavePosition extension methods

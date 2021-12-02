@@ -5,6 +5,7 @@ using NUnit.Framework;
 using NAudio.Wave;
 using NAudioTests.Utils;
 using System.IO;
+using NAudio.Core.Wave.WaveStreams;
 
 namespace NAudioTests.WaveStreams
 {

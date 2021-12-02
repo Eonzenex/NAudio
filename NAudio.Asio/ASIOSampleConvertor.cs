@@ -1,6 +1,7 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave.Asio
+namespace NAudio.Asio
 {
     /// <summary>
     /// This class stores convertors for different interleaved WaveFormat to ASIOSampleType separate channel

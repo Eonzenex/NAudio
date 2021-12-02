@@ -1,9 +1,15 @@
 using System;
-using System.Runtime.InteropServices;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using System.Threading;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
+using NAudio.WinMM;
+using NAudio.WinMM.MmeInterop;
 
-namespace NAudio.Wave 
+namespace NAudio.WinForms 
 {
     /// <summary>
     /// Represents a wave out device
@@ -248,7 +254,7 @@ namespace NAudio.Wave
         public long GetPosition() => WaveOutUtils.GetPositionBytes(hWaveOut, waveOutLock);
 
         /// <summary>
-        /// Gets a <see cref="Wave.WaveFormat"/> instance indicating the format the hardware is using.
+        /// Gets a <see cref="WaveFormat"/> instance indicating the format the hardware is using.
         /// </summary>
         public WaveFormat OutputWaveFormat => waveStream.WaveFormat;
 
@@ -362,7 +368,7 @@ namespace NAudio.Wave
                 }
                 if (queuedBuffers == 0)
                 {
-                    if (callbackInfo.Strategy == WaveCallbackStrategy.FunctionCallback && playbackState == Wave.PlaybackState.Stopped)
+                    if (callbackInfo.Strategy == WaveCallbackStrategy.FunctionCallback && playbackState == PlaybackState.Stopped)
                     {
                         // the user has pressed stop
                         // DO NOT raise the playback stopped event from here

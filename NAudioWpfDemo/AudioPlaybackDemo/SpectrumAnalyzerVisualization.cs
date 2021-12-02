@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using NAudio.Core.Dsp;
 
 namespace NAudioWpfDemo.AudioPlaybackDemo
 {
@@ -16,7 +17,7 @@ namespace NAudioWpfDemo.AudioPlaybackDemo
             // nothing to do
         }
 
-        public void OnFftCalculated(NAudio.Dsp.Complex[] result)
+        public void OnFftCalculated(Complex[] result)
         {
             spectrumAnalyser.Update(result);
         }

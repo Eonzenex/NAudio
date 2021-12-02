@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio
+namespace NAudio.Core
 {
 	/// <summary>
 	/// Manufacturer codes from mmreg.h

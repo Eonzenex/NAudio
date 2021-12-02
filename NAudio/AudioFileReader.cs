@@ -1,5 +1,9 @@
 ﻿using System;
-using NAudio.Wave.SampleProviders;
+using System.Linq;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Core.Wave.WaveStreams;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave
@@ -64,7 +68,8 @@ namespace NAudio.Wave
             else
             {
                 // fall back to media foundation reader, see if that can play it
-                readerStream = new MediaFoundationReader(fileName);
+                // readerStream = new MediaFoundationReader(fileName);
+                throw new NotSupportedException($"This file format is not supported: {fileName.Split(".").Last()}");
             }
         }
         /// <summary>

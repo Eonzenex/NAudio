@@ -1,4 +1,6 @@
-﻿namespace NAudioDemo.SimplePlaybackDemo
+﻿using NAudio.WinForms.Gui;
+
+namespace NAudioDemo.SimplePlaybackDemo
 {
     partial class SimplePlaybackPanel
     {
@@ -39,7 +41,7 @@
             this.labelTotalTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.volumeSlider1 = new NAudio.Gui.VolumeSlider();
+            this.volumeSlider1 = new VolumeSlider();
             this.SuspendLayout();
             // 
             // label1
@@ -164,7 +166,7 @@
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.ComboBox comboBoxOutputDriver;
         private System.Windows.Forms.Label label2;
-        private NAudio.Gui.VolumeSlider volumeSlider1;
+        private VolumeSlider volumeSlider1;
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Label labelNowTime;
         private System.Windows.Forms.Label labelTotalTime;

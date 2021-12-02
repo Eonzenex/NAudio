@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// Chunk Identifier helpers

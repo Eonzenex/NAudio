@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.IO;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveOutputs
 {
     /// <summary>
     /// A wave file writer that adds cue support

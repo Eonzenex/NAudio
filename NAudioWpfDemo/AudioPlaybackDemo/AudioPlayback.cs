@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Windows;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Extras;
 using NAudio.Wave;
+using NAudio.WinForms;
 
 namespace NAudioWpfDemo.AudioPlaybackDemo
 {

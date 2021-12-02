@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using System.Xml;
 using NAudio.Wave;
 using MarkHeath.AudioUtils.Properties;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.WinForms;
 
 namespace MarkHeath.AudioUtils
 {
@@ -462,7 +464,7 @@ namespace MarkHeath.AudioUtils
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NAudio.Utils.AboutForm aboutForm = new NAudio.Utils.AboutForm();
+            AboutForm aboutForm = new AboutForm();
             aboutForm.ShowDialog();
         }
 

@@ -1,10 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using NAudio.SoundFont;
 using System.ComponentModel.Composition;
+using System.Text;
+using NAudio.Core.FileFormats.SoundFont;
 
-namespace AudioFileInspector
+namespace AudioFileInspector.FileInspectors
 {
     [Export(typeof(IAudioFileInspector))]
     public class SoundFontInspector : IAudioFileInspector

@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
 	/// <summary>
 	/// Generator types

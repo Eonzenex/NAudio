@@ -2,6 +2,8 @@
 using System.Linq;
 using NAudio.Wave;
 using System.Windows.Forms;
+using NAudio.WinForms;
+using NAudio.WinMM.MmeInterop;
 
 namespace NAudioDemo.AudioPlaybackDemo
 {

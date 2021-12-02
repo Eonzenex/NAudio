@@ -1,7 +1,7 @@
 using System.IO;
-using NAudio.Utils;
+using NAudio.Core.Utils;
 
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
     class SampleHeaderBuilder : StructureBuilder<SampleHeader>
     {

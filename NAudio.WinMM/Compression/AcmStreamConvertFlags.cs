@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.Compression
 {
     [Flags]
     enum AcmStreamConvertFlags

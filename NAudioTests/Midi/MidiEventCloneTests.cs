@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using NAudio.Midi;
+using NAudio.Midi.Midi;
 using NUnit.Framework;
 
 namespace NAudioTests.Midi

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace NAudio.Mixer
+namespace NAudio.WinMM.Mixer
 {    
     /// <summary>
     /// Mixer Interop Flags

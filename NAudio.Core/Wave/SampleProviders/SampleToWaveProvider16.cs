@@ -1,7 +1,9 @@
 ﻿using System;
-using NAudio.Utils;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Converts a sample provider to 16 bit PCM, optionally clipping and adjusting volume along the way

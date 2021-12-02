@@ -1,6 +1,8 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// No nonsense mono to stereo provider, no volume adjustment,

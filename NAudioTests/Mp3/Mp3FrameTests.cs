@@ -1,6 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using System.IO;
+using NAudio.Core.FileFormats.Mp3;
 using NAudio.Wave;
 
 namespace NAudioTests.Mp3

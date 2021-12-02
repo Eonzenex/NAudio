@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {    
     /// <summary>
     /// these will become extension methods once we move to .NET 3.5

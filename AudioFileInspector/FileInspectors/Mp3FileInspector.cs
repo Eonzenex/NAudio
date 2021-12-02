@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
-using System.ComponentModel.Composition;
-using NAudio.Utils;
+using NAudio.Core.FileFormats.Mp3;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
-namespace AudioFileInspector
+namespace AudioFileInspector.FileInspectors
 {
     [Export(typeof(IAudioFileInspector))]
     public class Mp3FileInspector : IAudioFileInspector

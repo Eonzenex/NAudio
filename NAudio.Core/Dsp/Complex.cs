@@ -1,4 +1,4 @@
-namespace NAudio.Dsp
+namespace NAudio.Core.Dsp
 {
     /// <summary>
     /// Type to represent complex number

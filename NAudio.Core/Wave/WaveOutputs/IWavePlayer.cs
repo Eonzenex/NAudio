@@ -1,4 +1,6 @@
 using System;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave
@@ -60,7 +62,7 @@ namespace NAudio.Wave
         long GetPosition();
 
         /// <summary>
-        /// Gets a <see cref="Wave.WaveFormat"/> instance indicating the format the hardware is using.
+        /// Gets a <see cref="WaveFormat"/> instance indicating the format the hardware is using.
         /// </summary>
         WaveFormat OutputWaveFormat { get; }
     }

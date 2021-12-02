@@ -1,11 +1,13 @@
-using NAudio.Wave.SampleProviders;
 using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Windows.Storage;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave
+namespace NAudio.Uap
 {
     /// <summary>
     /// This class writes WAV data to a .wav file on disk

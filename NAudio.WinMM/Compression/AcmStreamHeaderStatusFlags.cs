@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     [Flags]
     enum AcmStreamHeaderStatusFlags

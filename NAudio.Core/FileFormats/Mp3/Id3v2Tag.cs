@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
-using NAudio.Utils;
+using System.Text;
+using NAudio.Core.Utils;
 
-namespace NAudio.Wave
+namespace NAudio.Core.FileFormats.Mp3
 {
     /// <summary>
     /// An ID3v2 Tag

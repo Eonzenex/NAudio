@@ -4,8 +4,8 @@ using System.Text;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using NAudio.Utils;
 using NAudio.Midi;
+using NAudio.Midi.Midi;
 
 namespace MarkHeath.MidiUtils
 {

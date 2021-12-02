@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveInputs;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using NAudioDemo.Utils;

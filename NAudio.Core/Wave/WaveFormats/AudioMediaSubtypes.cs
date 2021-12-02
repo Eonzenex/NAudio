@@ -1,7 +1,8 @@
 ﻿using System;
+
 // ReSharper disable InconsistentNaming
 
-namespace NAudio.Dmo
+namespace NAudio.Core.Wave.WaveFormats
 {
     public class AudioMediaSubtypes
     {

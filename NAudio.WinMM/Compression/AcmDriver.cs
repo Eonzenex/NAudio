@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
-using NAudio.Utils;
+using NAudio.Core;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// Represents an installed ACM Driver

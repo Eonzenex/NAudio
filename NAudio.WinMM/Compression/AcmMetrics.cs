@@ -1,4 +1,4 @@
-namespace NAudio.Wave
+namespace NAudio.WinMM.Compression
 {
     enum AcmMetrics
     {

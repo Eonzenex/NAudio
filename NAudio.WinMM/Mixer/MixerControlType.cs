@@ -1,7 +1,8 @@
 // created on 15/12/2002 at 02:55
+
 using System;
 
-namespace NAudio.Mixer
+namespace NAudio.WinMM.Mixer
 {
 	[Flags]
 	internal enum MixerControlClass 

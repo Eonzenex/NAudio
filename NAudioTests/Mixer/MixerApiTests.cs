@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NUnit.Framework;
-using NAudio.Mixer;
 using System.Diagnostics;
-using NAudio;
 using NAudio.Wave;
+using NAudio.WinMM.Mixer;
+using NUnit.Framework;
 
-namespace NAudioTests
+namespace NAudioTests.Mixer
 {
     [TestFixture]
     [Category("IntegrationTest")]
@@ -16,7 +13,7 @@ namespace NAudioTests
         [Test]
         public void CanEnumerateAllMixerControls()
         {
-            int devices = Mixer.NumberOfDevices;
+            int devices = NAudio.WinMM.Mixer.Mixer.NumberOfDevices;
             Assert.That(devices > 0, "Expected at least one mixer device");
             for (int device = 0; device < devices; device++)
             {
@@ -29,7 +26,7 @@ namespace NAudioTests
         public void CanFindDefaultWaveIn()
         {
             int defaultWaveInMixerId = MixerLine.GetMixerIdForWaveIn(0);
-            Mixer mixer = new Mixer(defaultWaveInMixerId);
+            NAudio.WinMM.Mixer.Mixer mixer = new NAudio.WinMM.Mixer.Mixer(defaultWaveInMixerId);
             foreach (MixerLine destination in mixer.Destinations)
             {
                 Debug.WriteLine(String.Format("DESTINATION: {0} {1} (Type: {2}, Target: {3})",
@@ -79,7 +76,7 @@ namespace NAudioTests
 
         private static void ExploreMixerDevice(int deviceIndex)
         {
-            Mixer mixer = new Mixer(deviceIndex);
+            NAudio.WinMM.Mixer.Mixer mixer = new NAudio.WinMM.Mixer.Mixer(deviceIndex);
             Debug.WriteLine(String.Format("Device {0}: {1}",deviceIndex,mixer.Name));
             Debug.WriteLine("--------------------------------------------");
             int destinations = mixer.DestinationCount;
@@ -90,7 +87,7 @@ namespace NAudioTests
             }
         }
 
-        private static void ExploreMixerDestination(Mixer mixer, int destinationIndex)
+        private static void ExploreMixerDestination(NAudio.WinMM.Mixer.Mixer mixer, int destinationIndex)
         {
             var destination = mixer.GetDestination(destinationIndex);
             Debug.WriteLine(String.Format("Destination {0}: {1}", 

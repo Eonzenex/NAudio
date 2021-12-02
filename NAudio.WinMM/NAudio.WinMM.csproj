@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFramework>net6.0</TargetFramework>
     <Version>2.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SignAssembly>true</SignAssembly>
@@ -11,7 +11,6 @@
     <RepositoryUrl>https://github.com/naudio/NAudio</RepositoryUrl>
     <Copyright>© Mark Heath 2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>naudio-icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\naudio-icon.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>

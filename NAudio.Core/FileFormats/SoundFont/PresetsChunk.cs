@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace NAudio.SoundFont 
+namespace NAudio.Core.FileFormats.SoundFont 
 {
 	/// <summary>
 	/// Class to read the SoundFont file presets chunk

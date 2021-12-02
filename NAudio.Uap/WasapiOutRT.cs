@@ -3,13 +3,16 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
-using NAudio.CoreAudioApi;
-using NAudio.CoreAudioApi.Interfaces;
 using Windows.Media.Devices;
-using NAudio.Utils;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wasapi.CoreAudioApi;
+using NAudio.Wasapi.CoreAudioApi.Interfaces;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Uap
 {
     enum WasapiOutState
     {

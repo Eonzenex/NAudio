@@ -1,7 +1,7 @@
 ﻿using System;
-using NAudio.MediaFoundation;
 using NAudio.Wave;
 using Windows.Storage.Streams;
+using NAudio.Wasapi.MediaFoundation;
 
 namespace NAudioUniversalDemo
 {

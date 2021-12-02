@@ -1,7 +1,9 @@
 using System;
 using System.Runtime.InteropServices;
+using NAudio.Core;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// AcmStream encapsulates an Audio Compression Manager Stream

@@ -1,7 +1,9 @@
 ﻿using System;
-using NAudio.Dsp;
+using NAudio.Core.Dsp;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// ADSR sample provider allowing you to specify attack, decay, sustain and release values

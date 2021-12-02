@@ -1,6 +1,8 @@
-﻿using NAudio.Utils;
+﻿using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
-namespace NAudio.Wave.SampleProviders
+namespace NAudio.Core.Wave.SampleProviders
 {
     /// <summary>
     /// Helper base class for classes converting to ISampleProvider

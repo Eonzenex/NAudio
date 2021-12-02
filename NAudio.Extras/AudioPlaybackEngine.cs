@@ -1,6 +1,9 @@
 ﻿using System;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 
 namespace NAudio.Extras
 {

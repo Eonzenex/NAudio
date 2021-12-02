@@ -1,6 +1,8 @@
 // created on 27/12/2002 at 20:20
 using System;
 using System.IO;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave 

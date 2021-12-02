@@ -4,6 +4,7 @@ using NUnit.Framework;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using System.Diagnostics;
+using NAudio.Core.Wave.WaveFormats;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Wasapi

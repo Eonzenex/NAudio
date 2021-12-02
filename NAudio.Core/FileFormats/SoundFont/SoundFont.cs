@@ -1,7 +1,8 @@
 using System;
 using System.IO;
+using NAudio.SoundFont;
 
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
     /// <summary>
     /// Represents a SoundFont

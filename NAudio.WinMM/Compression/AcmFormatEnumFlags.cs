@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NAudio.Wave.Compression
+namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// Format Enumeration Flags

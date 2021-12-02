@@ -1,4 +1,4 @@
-﻿namespace NAudio.Wave.Compression
+﻿namespace NAudio.WinMM.Compression
 {
     /// <summary>
     /// Flags for use with acmDriverAdd

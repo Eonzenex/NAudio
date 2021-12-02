@@ -1,8 +1,9 @@
-// based on SimpleComp v1.10 © 2006, ChunkWare Music Software, OPEN-SOURCE
-using System;
-using NAudio.Utils;
+// based on SimpleComp v1.10 Â© 2006, ChunkWare Music Software, OPEN-SOURCE
 
-namespace NAudio.Dsp
+using System;
+using NAudio.Core.Utils;
+
+namespace NAudio.Core.Dsp
 {
     class SimpleCompressor : AttRelEnvelope
     {

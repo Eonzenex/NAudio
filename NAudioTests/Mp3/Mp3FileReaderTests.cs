@@ -3,8 +3,6 @@ using NUnit.Framework;
 using System.IO;
 using NAudio.Wave;
 using System.Diagnostics;
-using NAudio.MediaFoundation;
-using NAudio.Wave.SampleProviders;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Mp3

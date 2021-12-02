@@ -1,9 +1,11 @@
 using System;
-using System.IO;
 using System.Collections.Generic;
-using NAudio.FileFormats.Wav;
+using System.IO;
+using NAudio.Core.FileFormats.Wav;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
-namespace NAudio.Wave 
+namespace NAudio.Core.Wave.WaveStreams 
 {
     /// <summary>This class supports the reading of WAV files,
     /// providing a repositionable WaveStream that returns the raw data

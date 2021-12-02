@@ -2,6 +2,7 @@
 using System.Linq;
 using NAudio.Wave;
 using System.Windows.Forms;
+using NAudio.Asio;
 
 namespace NAudioDemo.AudioPlaybackDemo
 {

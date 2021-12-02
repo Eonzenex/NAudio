@@ -1,6 +1,7 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave
+namespace NAudio.Core.FileFormats.Mp3
 {
     /// <summary>
     /// Interface for MP3 frame by frame decoder

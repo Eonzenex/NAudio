@@ -1,5 +1,6 @@
 ﻿using System;
 using NAudio.Wave;
+using NAudio.WinForms;
 
 namespace NAudioDemo.NetworkChatDemo
 {

@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace NAudio.SoundFont
+namespace NAudio.Core.FileFormats.SoundFont
 {
     /// <summary>
     /// Builds a SoundFont version

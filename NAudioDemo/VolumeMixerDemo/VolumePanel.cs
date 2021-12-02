@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using NAudio.CoreAudioApi;
 using System.Diagnostics;
-using NAudio.CoreAudioApi.Interfaces;
 using System.Media;
 
 namespace NAudioDemo.VolumeMixerDemo

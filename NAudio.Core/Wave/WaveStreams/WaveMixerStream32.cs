@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 
-namespace NAudio.Wave
+namespace NAudio.Core.Wave.WaveStreams
 {
     /// <summary>
     /// WaveStream that can mix together multiple 32 bit input streams

@@ -1,7 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;uap10.0.17763</TargetFrameworks>
     <Version>2.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Mark Heath</Authors>
@@ -13,6 +12,7 @@
     <Copyright>© Mark Heath 2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>naudio-icon.png</PackageIcon>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,12 +22,5 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0.17763' ">
     <Compile Remove="MediaFoundationEncoder.cs" />
     <Compile Remove="MediaFoundationResampler.cs" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <None Include="..\naudio-icon.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
   </Project>

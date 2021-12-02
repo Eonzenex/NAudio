@@ -1,6 +1,6 @@
 using System;
 
-namespace NAudio.Wave
+namespace NAudio.WinMM.MmeInterop
 {
 	/// <summary>
 	/// Flags indicating what features this WaveOut device supports

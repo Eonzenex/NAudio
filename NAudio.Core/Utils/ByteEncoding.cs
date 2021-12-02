@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace NAudio.Utils
+namespace NAudio.Core.Utils
 {
     /// <summary>
     /// An encoding for use with file types that have one byte per character

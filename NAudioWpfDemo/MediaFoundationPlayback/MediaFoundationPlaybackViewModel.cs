@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Threading;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
 using NAudioWpfDemo.ViewModel;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
